@@ -4,6 +4,6 @@
 - [x] "Any file"
 
  <p align="center">
-![](https://www.ariteknokent.com.tr/uploads/company/logo/company-48.png) 
+<img src="img.png">
 </p>
 
