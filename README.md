@@ -36,5 +36,5 @@ My-Recipes is a web project where users can create or search for a recipe.
     - Model: PascalCase (singular) (User)
     - SQL:  snake_case (plural) (users)
 - Column:
-    - Model: camelCase (ingredientDescription)
-    - SQL:  snake_case (ingredient_description)
+    - Model: camelCase (firstName)
+    - SQL:  snake_case (first_name)
