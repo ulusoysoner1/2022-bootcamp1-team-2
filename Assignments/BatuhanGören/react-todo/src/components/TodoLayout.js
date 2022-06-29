@@ -6,6 +6,12 @@ function TodoLayout(props) {
     
     const avoidRefresh = e =>{
         e.preventDefault();
+
+        props.onSubmit({
+          id: Math.floor(Math.random()*10000),
+          text: getInput
+        });
+
         setInput('');
     };
 

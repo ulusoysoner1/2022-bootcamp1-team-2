@@ -1,11 +1,11 @@
 import './App.css';
-import TodoLayout from './components/TodoLayout';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
     <div className="React-todo">
       
-      <TodoLayout/>
+      <TodoList/>
     </div>
   );
 }
