@@ -1,8 +1,8 @@
+
 import React from 'react'
 import {RiCloseCircleLine} from 'react-icons/ri'
 
 function Todo({todos, completeTodo, removeTodo}) {
-
 
   return todos.map((todo, index) => (
     <div 
@@ -17,6 +17,7 @@ function Todo({todos, completeTodo, removeTodo}) {
                 onClick={()=> removeTodo(todo.id)}
                 className='delete-icon'
                  />
+
             </div>
 
     </div>

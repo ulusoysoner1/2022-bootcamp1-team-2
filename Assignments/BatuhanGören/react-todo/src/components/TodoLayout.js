@@ -18,7 +18,7 @@ function TodoLayout(props) {
     const avoidChange = e =>{
         setInput(e.target.value);
     };
-    
+
   return (
 
     <form className='todo-layout' onSubmit={avoidRefresh}>
