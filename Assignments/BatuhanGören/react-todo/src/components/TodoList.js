@@ -6,6 +6,7 @@ function TodoList() {
 
     const [todos, setTodos] = useState([]);
 
+
     const addTodo = todo => {
         if(!todo.text || /^\s*$/.test(todo.text)){
             return;
@@ -13,7 +14,6 @@ function TodoList() {
         const newTodos = [todo,...todos];
 
         setTodos(newTodos);
-        console.log(...todos);
     };
 
     const completeTodo = id=> {
@@ -33,11 +33,12 @@ function TodoList() {
 
   return (
     <div>
-        <h1>Remember what todo</h1>
+        <h1>Write Your Todo List</h1>
         <TodoLayout onSubmit={addTodo} />
-        <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo}/>
+        <Todo todos={todos} 
+        completeTodo={completeTodo} r
+        removeTodo={removeTodo}/>
     </div>
   );
 }
-
 export default TodoList;
